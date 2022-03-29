@@ -5,7 +5,7 @@ git clone https://github.com/NikolayKozub/cypress-katana.git
 cd cypress-katana
 
 ## install the node_modules
-npm install or npm ci
+npm ci
 
 ## run test
 npx run cypress open 
