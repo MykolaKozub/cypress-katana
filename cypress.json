@@ -4,7 +4,7 @@
   "viewportHeight": 768,
   "viewportWidth": 1366,
   "defaultCommandTimeout": 10000,
-  "projectId": "mywuu4",
+  "projectId": "12gv8n",
   "fixturesFolder": "./src/fixtures",
   "baseUrl": "https://factory.katanamrp.com",
   "integrationFolder": "./cypress/integration/",
