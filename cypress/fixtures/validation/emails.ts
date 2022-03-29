@@ -1,0 +1,26 @@
+export const emails = {
+  positive: [
+    '0987654321@example.com',
+    'example@email-one.com',
+    '_______@email.com',
+    'example@email.name',
+    'example@email.co.jp',
+    'example.firstname-lastname@email.com',
+  ],
+  negative: [
+    'plaintextaddress',
+    '@#@@##@%^%#$@#$@#.com',
+    '@email.com',
+    'John Doe <example@email.com>',
+    'example.email.com',
+    'example@example@email.com',
+    '.example@email.com',
+    'example.@email.com',
+    'example@email.com (John Doe)',
+    'example@email',
+    'example@-email.com',
+    'example@111.222.333.44444',
+    'example@email…com',
+    '”(),:;<>[]@email.com',
+  ],
+}

@@ -1,0 +1,25 @@
+{
+  "name": "katana-cypress",
+  "version": "1.0.0",
+  "description": "testing Katana use Cypress",
+  "private": true,
+  "scripts": {
+    "test": "cypress open",
+    "cy:run": "cypress run",
+    "ci": "cy:run"
+  },
+  "keywords": [],
+  "author": "nikolay kozub",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.7.0",
+    "prettier": "^2.5.1",
+    "start-server-and-test": "1.14.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.7.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.7"
+  }
+}

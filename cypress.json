@@ -1,0 +1,14 @@
+{
+  "fileServerFolder": ".",
+  "video": false,
+  "viewportHeight": 768,
+  "viewportWidth": 1366,
+  "defaultCommandTimeout": 10000,
+  "projectId": "mywuu4",
+  "fixturesFolder": "./src/fixtures",
+  "baseUrl": "https://factory.katanamrp.com",
+  "integrationFolder": "./cypress/integration/",
+  "modifyObstructiveCode": false,
+  "pluginsFile": "./cypress/plugins/index.js",
+  "chromeWebSecurity": false
+}

@@ -1,0 +1,17 @@
+    name: E2E tests
+    on: [push]
+    jobs:
+      cypress-run:
+        timeout-minutes: 10
+        runs-on: ubuntu-latest
+        steps:
+          - name: Checkout
+            uses: actions/checkout@v1
+          - name: Setup npm package
+            run: npm install
+          - name: Run E2E test
+            uses: cypress-io/github-action@v2.9.7
+        env:
+          CYPRESS_username: ${{ secrets.CYPRESS_USERNAME }}
+          CYPRESS_password: ${{ secrets.CYPRESS_PASSWORD }}
+          CYPRESS_RECORD_KEY: ${{secrets.CYPRESS_RECORD_KEY}}
