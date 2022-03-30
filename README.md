@@ -7,5 +7,11 @@ cd cypress-katana
 ## install the node_modules
 npm ci
 
+## create local file 'cypress-katana/cypress.env.json' and add username, password 
+{
+"username": "testUser...",
+"password": "pass..."
+}
+
 ## run test
 npx run cypress open 
