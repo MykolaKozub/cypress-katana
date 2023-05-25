@@ -19,7 +19,7 @@ To install Cypress Katana, follow the steps below:
 
    git clone https://github.com/NikolayKozub/cypress-katana.git
    
-   #Configuration
+## Configuration
 To configure Cypress Katana, follow the steps below:
 
 Create a local file named cypress-katana/cypress.env.json.
