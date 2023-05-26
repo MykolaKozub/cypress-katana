@@ -56,5 +56,7 @@ Idea - use 'easy' way to fill form and check final results.
 ```
 </pre>
 
+Small remarks : https://www.notion.so/Small-Guidelines-on-how-to-write-tests-use-Cypress-io-f54432bb53fb4612b79b6a97995f6db5?pvs=4
+
 ## License
 This project is licensed under the MIT License.
